@@ -1,10 +1,8 @@
 import java.util.Scanner;
 
-public class MergeSort {
+public class MergeSort{
 
     /* Name of the class has to be "Main" only if the class is public. */
-    class Main
-    {
         public static void merge(int [] arr1, int [] arr2, int [] arr){
             int i = 0, j = 0, k = 0;
             while(i<arr1.length && j<arr2.length){
@@ -62,4 +60,4 @@ public class MergeSort {
         }
     }
 
-}
+
